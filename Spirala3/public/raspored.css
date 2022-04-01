@@ -1,0 +1,174 @@
+ .dan_1, .dan_2, .dan_3, .dan_4, .dan_5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    border: 1px solid black;
+    text-align: center;
+ }
+ .sati{
+    display: none;
+ }
+ .dm-tutorijal, .dm-predavanje, .wt-predavanje, .wt-vjezbe, .rma-predavanje, .rma-vjezba, .oi-predavanje{
+    background-color: skyblue;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+  }
+  h4{
+    margin: 0px;
+  }
+  p{
+    margin: 0px;
+    font-size: x-small;
+  }
+ .dani{
+    display: flex;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    align-items: center;
+ }
+
+
+
+
+ @media only screen and (min-width: 601px)
+{
+  .dan_1, .dan_2, .dan_3, .dan_4, .dan_5{
+    flex-direction: row;
+    border: none;
+    height: 50px;
+  }
+  .sati{
+    display: flex;
+    flex-direction: row;
+    height: 15px;
+  }
+  .grid-item{
+    border: 1px solid black;
+    border-left: none;
+    border-bottom: none;
+    background-color: rgb(218, 216, 216);
+    width: 15px;
+  }
+
+  .grid-item-desni-isprekidan{
+    border-top: 1px solid black;
+    border-left: none;
+    border-right: 1px dashed black;
+    background-color: rgb(218, 216, 216);
+    width: 15px;
+  }
+  .grid-item-zadnji-red-desni-isprekidan{
+    border-left: none;
+    border-right: 1px dashed black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: rgb(218, 216, 216);
+    width: 15px;
+  }
+  .grid-item-zadnji{
+    border: 1px solid black;
+    border-left: none;
+    background-color: rgb(218, 216, 216);
+    width: 15px;
+  }
+  .grid-item-prvi{
+    border-left: 1px solid black;
+    border-right: 1px dashed black;
+    border-top: 1px solid black;
+    background-color: rgb(218, 216, 216);
+    width: 15px;
+  }
+  .grid-item-dole-lijevo{
+    border: 1px solid black;
+    border-right: 1px dashed black; 
+    background-color: rgb(218, 216, 216); 
+    width: 15px;
+  }
+  .wt-predavanje {
+    background-color: skyblue;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    width: 95px;
+  }
+  .wt-vjezbe{
+    background-color: skyblue;
+    border-top: 1px solid black;
+    border-right: 1px dashed black;
+    width: 47px;
+  }
+  .rma-predavanje{
+    background-color: skyblue;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    width: 95px;
+  }
+  .rma-vjezba{ 
+    background-color: skyblue;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    width: 47px;
+  }
+  .dm-tutorijal{   
+    background-color: skyblue;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    width: 63px;
+  }
+  .dm-predavanje{
+    background-color: skyblue;
+    border-top: 1px solid black;
+    border-right: 1px dashed black;
+    width: 95px;
+  }
+  .oi-predavanje{
+    background-color: skyblue;
+    border-top: 1px solid black;
+    border-right: 1px solid black; 
+    width: 95px; 
+  }
+  .prazan-box{
+    background-color: skyblue;
+    border-top: 1px solid black;
+    border-right: 1px solid black; 
+    width: 95px;
+  }
+  .sat_prvi{
+    border: none;
+    background-color: white;
+    text-align: right;
+    font-size: x-small;
+    width: 85px;
+  }
+  .sat{
+    border: none;
+    background-color: white;
+    text-align: right;
+    font-size: x-small;
+    width: 16px;
+  }
+  .minute{
+    border: none;
+    background-color: white;
+    text-align: left;
+    font-size: x-small;
+    width: 16px;
+ }
+ .dani{
+    border: none;
+    background-color: white;
+    text-align: right;
+    padding-right: 5px;
+    width: 80px;
+    writing-mode: horizontal-tb;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+ }
+ h4{
+    margin: 0px;
+ }
+ p{
+    margin: 0px;
+    font-size: x-small;
+ }
+}

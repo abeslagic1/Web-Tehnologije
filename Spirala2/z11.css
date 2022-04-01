@@ -1,0 +1,124 @@
+#okvir, #okvir2, #okvir3{
+    padding: 20px;
+}
+
+.slot{
+    height: 80px;
+    width: 25px;
+    border-left: 1px dashed black;
+    border-right: 1px dashed black;
+    background-color: silver;
+    min-width: 25px;
+}
+.slot.slot_full{
+    border-left: 1px solid black;
+    height: 80px;
+    width: 25px;
+}
+.slot:last-child{
+	border-right: 1px solid black;
+}
+.slot:first-of-type{
+	border-left: 1px solid black;
+}
+tbody tr:first-child .slot {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.dani{
+    border-right: 1px solid black;
+    text-align: right;
+    padding-right: 8px;
+
+}
+tbody tr:not(:first-child) .slot {
+    border-top: 1px solid;
+}
+tbody tr:last-child .slot {
+    border-bottom: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+[colspan]{
+    background-color: cornflowerblue;
+    text-align: center;
+    
+}
+.sati{
+    text-align: right;
+}
+
+p{
+    margin-top: 0px;
+    font-size: small;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+h3{
+    margin: 0px;
+}
+
+@media only screen and (max-width: 600px)
+{
+    #okvir, #okvir2, #okvir3{
+        padding: 20px;
+    }
+    table, tbody, thead, tr, td{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        border: none;
+    }
+    .dani{
+        display: flex;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        align-items: center;
+        padding: 10px 0;
+        border-right: none;
+     }
+     .dani:not(:last-child){
+         border-bottom: none;
+     }
+     .slot{
+         display: none;
+         border-right: none;
+         border-left: none;
+         min-width: 100%;
+     }
+
+     .dan{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:column;
+        border: none;
+        text-align: center;
+        padding: 0;
+        border: 1px solid black;
+        overflow: hidden;
+     }
+     .dan:not(:last-child){
+        border-bottom: none;
+    }
+     [colspan]{
+        background-color: cornflowerblue;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:column;
+        text-align: center;
+    }
+
+    .sati{
+        display: none;
+     }
+     .minute{
+         display: none;
+     }
+}

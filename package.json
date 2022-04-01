@@ -1,0 +1,22 @@
+{
+  "name": "wt20p17047",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-spirala3": "node Spirala3/Zadatak2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Beslagic@bitbucket.org/Beslagic/wt20p17047.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Beslagic/wt20p17047#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}

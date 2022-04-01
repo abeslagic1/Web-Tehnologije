@@ -1,0 +1,23 @@
+table, tr, td {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+td{
+  min-width: 120px;
+}
+
+select, input{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px)
+{
+  td{
+    display: inline;
+  }
+
+  
+}

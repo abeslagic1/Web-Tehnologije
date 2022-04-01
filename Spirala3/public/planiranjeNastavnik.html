@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>planiranjeNastavnik</title>
+        <link rel="stylesheet" href="../planiranjeNastavnik.css">
+        <link rel="stylesheet" href="../meni.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="meni">
+            <ul>
+                <li><a href="../raspored.html">Raspored S1</a></li>
+                <li><a href="../aktivnost.html">Aktivnosti</a></li>
+                <li><a href="../planiranjeNastavnik.html">PlaniranjeNastavnik</a></li>
+                <li><a href="../podaciStudent.html">PodaciStudent</a></li>
+                <li><a href="../spirala2rasporedi.html">Raspored 2</a></li>
+            </ul>
+        </div>
+        <form>
+        <table>
+            <tr>
+                <td>
+                    <div class="razmak"></div>
+                    <label for="naziv">Naziv predmeta:</label>    
+                </td>
+                <td>
+                    <input type="text" id = "naziv"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="razmak"></div>
+                    <label for="tip">Tip:</label>
+                </td>
+                <td>
+                     <select>
+                        <option value="Predavanje">Predavanje</option>
+                        <option value="Vjezbe">Vježbe</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="razmak"></div>
+                    <label for="vrijemePocetak">Vrijeme početka:</label>
+                </td>
+                <td>
+                    <input type="time" id="vrijemePocetak">  
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="razmak"></div>
+                    <label for="vrijemeKraja">Vrijeme kraja:</label>
+                </td>
+                <td>
+                    <input type="time" id="vrijemeKraja">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="razmak"></div>
+                    <label for="dani">Dani u sedmici:</label>
+                </td>
+                <td>
+                    <select>
+                        <option value="Pon">Ponedjeljak</option>
+                        <option value="Uto">Utorak</option>
+                        <option value="Sri">Srijeda</option>
+                        <option value="Cet">Četvrtak</option>
+                        <option value="Pet">Petak</option>
+                        <option value="Sub">Subota</option>
+                        <option value="Ned">Nedjelja</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </body>
+</html>

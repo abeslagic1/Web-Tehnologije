@@ -1,0 +1,3 @@
+IM1,predavanje,10:00,12:00,ponedjeljak
+PWS,predavanje,09:00,10:00,ponedjeljak
+PWS,predavanje,12:00,13:00,ponedjeljak

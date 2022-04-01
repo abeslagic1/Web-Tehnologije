@@ -1,0 +1,55 @@
+body{
+    
+    height: 100vh;
+    background-image: linear-gradient(#a9bcc9, white);
+    overflow: hidden;
+    clear: both;
+}
+div.okviri{
+   margin-left: 20%;
+}
+
+fieldset{
+    display: inline;
+    width: 20%;
+    text-align: center;
+    border-color: cornflowerblue;
+    padding-left: 25px;
+    padding-right: 25px;
+    min-width: 190px;
+}
+fieldset.pa{
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 25px;
+    padding-bottom: 80px;
+}
+
+fieldset.ta{
+    margin-right: 20px;
+    
+    border-radius: 10px;
+    padding-bottom: 80px;
+}
+
+fieldset.sa{
+    margin-top: 30px;
+    border-radius: 25px;
+    padding-bottom: 44px;
+}
+
+fieldset p{
+    margin: 0px;
+    
+}
+
+@media only screen and (max-width: 601px)
+{
+    fieldset.pa{
+        display: none;
+    }
+
+    div.okviri{
+        margin-left: 25%;
+    }
+}
